@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    
+    <color name="background">#FF1C5560</color>
+    
+    <color name="profile_bkg">#FF9FBFC1</color>
+    
+    <color name="phyfit_primary">#FFE05970</color>
+    <color name="phyfit_secondary">#FF6C0F32</color>
+    
+    <color name="meditation_primary">#FF619FD2</color>
+    <color name="meditation_secondary">#FF4266C0</color>
+    
+    <color name="mentfit_primary">#FF4DBD8B</color>
+    <color name="mentfit_secondary">#FF008648</color>
+</resources>

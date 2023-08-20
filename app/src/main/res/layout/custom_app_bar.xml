@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/customAppBar"
+        android:layout_width="match_parent"
+        android:layout_height="225dp"
+        android:background="@drawable/home_page_vector" />
+
+    <TextView
+        android:id="@+id/greetingText"
+        android:layout_width="155dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="60dp"
+        android:text="Good\nEvening!"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textSize="40sp" />
+
+    <ImageView
+        android:id="@+id/iconButton"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignTop="@+id/greetingText"
+        android:layout_alignBottom="@+id/greetingText"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="74dp"
+        android:layout_marginBottom="26dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:src="@drawable/ic_account_circle_rounded"
+        tools:ignore="SpeakableTextPresentCheck"
+        app:tint="@color/white" />
+
+</RelativeLayout>
