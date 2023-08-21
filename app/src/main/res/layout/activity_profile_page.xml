@@ -63,4 +63,116 @@
         app:layout_constraintStart_toStartOf="@+id/profileImg"
         app:layout_constraintTop_toBottomOf="@+id/profileImg" />
 
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_margin="32dp"
+        android:elevation="10dp"
+        app:cardCornerRadius="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nameTv">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="348dp"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/height"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/text_custom_bkg"
+                android:elevation="10dp"
+                android:gravity="center"
+                android:text="165cm"
+                android:textColor="@color/white"
+                android:textSize="24sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/htv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Height"
+                android:layout_margin="5dp"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="@+id/height"
+                app:layout_constraintStart_toStartOf="@+id/height"
+                app:layout_constraintTop_toBottomOf="@+id/height" />
+
+            <TextView
+                android:id="@+id/weight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="40dp"
+                android:background="@drawable/text_custom_bkg"
+                android:gravity="center"
+                android:text="53 kg"
+                android:textColor="@color/white"
+                android:textSize="24sp"
+                android:elevation="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/wtv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Weight"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_margin="5dp"
+                app:layout_constraintEnd_toEndOf="@+id/weight"
+                app:layout_constraintStart_toStartOf="@+id/weight"
+                app:layout_constraintTop_toBottomOf="@+id/weight" />
+
+            <com.google.android.material.divider.MaterialDivider
+                android:id="@+id/materialDivider2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="110dp"
+                app:dividerColor="@color/profile_bkg"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/ptv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="36dp"
+                android:text="My Profession :"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/materialDivider2"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:id="@+id/profession"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="40dp"
+                android:background="@drawable/text_custom_bkg"
+                android:elevation="10dp"
+                android:gravity="center"
+                android:text="Student"
+                android:textColor="@color/white"
+                android:textSize="24sp"
+                app:layout_constraintBottom_toBottomOf="@+id/ptv"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/ptv"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
